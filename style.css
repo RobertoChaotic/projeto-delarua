@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ /* #ff0022 red
+    #07f27d green
+    #f28c07 yellow
+*/
+
+body {
+    background: url(img/nova-foto.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200PX;
+    margin: 0 auto;
+    padding: 10PX;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Audiowide', cursive;
+    background-color: rgba(0, 0, 0, 0.904);
+    align-items: center;
+    border-radius: 15px 0px 15px 0px;
+}
+
+header img {
+    width:150px;
+}
+
+li {
+    display: inline-block;
+    margin: 17px;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: #07f27d;
+}
+
+a:hover {
+    color: rgb(111, 0, 255);
+    transition: 0.3s all;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.705);
+    margin-top: 20PX;
+    padding: 20px;
+    height: 600px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+div.crew img {
+    width: 400px;
+    border: white solid 3px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+p {
+    line-height: 20px;
+    max-width: 410px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #07f27d;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+}
+
+div.logotipo img {
+    width: 300px;
+    margin-left: 100px;
+}
+
+div.video {
+    border:  solid 3px;
+}
+
+div.xxx  img {
+    width: 200px;
+    margin-left: 150px;
+
+}
+
+
+
